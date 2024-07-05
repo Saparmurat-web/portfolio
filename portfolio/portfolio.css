@@ -1,0 +1,379 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+    font-family: "Montserrat";
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #fff;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+nav {
+    width: 100%;
+    height: 720px;
+    background: linear-gradient(100deg, #d3d3d3 50%, #000 50%);
+}
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: right;
+    flex-direction: row;
+}
+
+.navbar ul li {
+    display: block;
+    padding: 5px 5px;
+    margin: 15px 5px;
+    color: #eee;
+    transition: .2s;
+    border-radius: 15px;
+}
+
+.navbar li a {
+    padding: 5px 16px;
+}
+
+.navbar ul li:last-child {
+    margin-right: 90px;
+}
+
+.navbar ul li:hover {
+    background: #eee;
+    color: #000;
+}
+
+.text {
+    margin: 100px 150px;
+    padding: 20px 15px;
+    width: 500px;
+}
+
+.text .title {
+    margin: 25px 0;
+    padding: 5px 0;
+    position: relative;
+    left: 5px;
+    font-size: initial;
+    font-weight: initial;
+}
+
+.text .name {
+    font-size: 35px;
+}
+
+.occupations {
+    color: #808080;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin: 5px 0;
+}
+
+.it-berries {
+    background: #282828;
+    height: 270px;
+}
+
+.it-berries .txt {
+    max-width: 75%;
+    color: #eee;
+}
+
+.it-berries .title {
+    position: relative;
+    top: 30px;
+    left: 70px;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+    padding: 20px 5px;
+}
+
+.it-berries .paragraph {
+    position: relative;
+    top: 40px;
+    left: 70px;
+    font-size: 14px;
+    padding: 1px 5px;
+}
+
+.more-btn {
+    padding: 5px 8px;
+    border: none;
+    border-left: 2px solid #eee;
+    border-right: 2px solid #eee;
+    color: #eee;
+    outline: none;
+    background-color: transparent;
+    text-transform: uppercase;
+    cursor: pointer;
+    position: relative;
+    top: 70px;
+    left: 75px;
+}
+
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: radial-gradient(#e8e8e8, #d3d3d3 55%);
+    height: 1600px;
+}
+
+.about .main-title {
+    border: 3px solid black;
+    font-size: 25px;
+    font-weight: 600;
+    padding: 18px 45px;
+    margin: 40px 5px 30px 5px;
+    text-transform: uppercase;
+}
+
+.main-subtitle {
+    font-size: 15px;
+    text-align: center;
+    max-width: 900px;
+}
+
+.explore {
+    padding: 5px 8px;
+    border: none;
+    border-left: 2px solid #000;
+    border-right: 2px solid #000;
+    color: #000;
+    outline: none;
+    cursor: pointer;
+    margin: 70px 15px;
+    background-color: transparent;
+    text-transform: uppercase;
+}
+
+.main-scill {
+    max-width: 700px;
+}
+
+.main-scill img {
+    width: 30px;
+    height: 27px;
+    position: relative;
+    top: 62px;
+    right: 30px;
+}
+
+.main-scill h2 {
+    z-index: 2;
+    font-size: 23px;
+    letter-spacing: 3px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 30px 0;
+}
+
+.main-scill p {
+    font-size: 14px;
+    letter-spacing: .8px;
+}
+
+.skills {
+    width: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.skills .skills-title {
+    border: 3px solid black;
+    font-size: 25px;
+    font-weight: 600;
+    width: 150px;
+    text-align: center;
+    padding: 18px 30px;
+    margin: 120px 5px 50px 5px;
+    text-transform: uppercase;
+}
+
+.skills-subtitle {
+    font-weight: 500;
+    font-size: 1.2rem;
+    margin: 25px 5px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.skills ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    list-style-type: none;
+    margin: 35px 5px;
+}
+
+.skills li {
+    margin: 5px 50px;
+}
+
+.skills img.html {
+    width: 90px;
+    height: 100px;
+}
+
+.skills img.css {
+    height: 100px;
+    width: 65px;
+    margin-right: 50px;
+}
+
+.skills img.js {
+    width: 70px;
+    height: 70px;
+    margin-right: 40px;
+}
+
+.skills img.en {
+    width: 70px;
+    height: 70px;
+    margin-right: 30px;
+}
+
+.skills img.ru {
+    width: 70px;
+    height: 70px;
+    margin-right: 30px;
+}
+
+.contacts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(#d3d3d3 60%, #e8e8e8);
+}
+
+.contacts .contacts-title {
+    border: 3px solid black;
+    font-size: 25px;
+    font-weight: 600;
+    width: 150px;
+    text-align: center;
+    padding: 18px 30px;
+    margin: 20px 5px 60px 5px;
+    text-transform: uppercase;
+}
+
+.contacts-subtitle {
+    font-weight: 500;
+    font-size: 15px;
+    margin: 5px 5px 50px 5px;
+    width: 900px;
+    text-align: center;
+}
+
+input.input {
+    border: none;
+    font-size: 10px;
+    background: transparent;
+    border-left: 2px solid;
+    border-bottom: 2px solid;
+    text-transform: uppercase; 
+    padding: 10px 60px 10px 10px;
+    outline: none;
+    text-align: left;
+    margin: 5px 25px;
+    width: 300px;
+}
+
+textarea {
+    border: none;
+    background: transparent;
+    font-size: 10px;
+    border-left: 2px solid;
+    border-bottom: 2px solid;
+    text-transform: uppercase; 
+    padding: 10px 60px 10px 10px;
+    outline: none;
+    text-align: left;
+    margin: 5px 25px;
+    width: 300px;
+    resize: none;
+}
+
+button.submit {
+    padding: 5px 8px;
+    border: none;
+    border-left: 2px solid #000;
+    border-right: 2px solid #000;
+    color: #000;
+    outline: none;
+    cursor: pointer;
+    margin: 50px 15px;
+    background-color: transparent;
+    text-transform: uppercase;
+}
+
+footer {
+    background-color: #282828;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+button.back-to-top {
+    background: transparent;
+    padding: 12px 12px;
+    margin: 50px 10px 120px 10px;
+    font-size: 1rem;
+    color: #eee;
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+}
+
+.footer-social {
+    display: flex;
+    gap: 15px;
+    margin-left: 35px;
+    position: relative;
+    bottom: 80px;
+    right: 20px;
+}
+
+.footer-social img {
+    filter: brightness(50%);
+    width: 30px;
+    height: 30px;
+    margin: 1px 5px;
+}
+
+.footer-social img:hover {
+    filter: brightness(100%);
+}
+
+.copyright {
+    display: block;
+    color: #eee;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+.copyright p {
+    font-weight: 400;
+    color: #d3d3d3;
+}
+
+.copyright span {
+    font-weight: 600;
+}
